@@ -15,11 +15,18 @@ body{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 35%;
-    opacity: 40%;
-    border: 4px solid #ffffffa8;
-    border-radius: 53%;
+    width: 28%;
+    opacity: 100%;
     padding: 5px;
+    border: 4px solid #ffffff;
+    border-radius: 53%;
+    border-style:double;
+}
+
+#main-logo:hover{
+    transform: scale(1.1);
+    transition-duration: 1s ;
+    
 }
 
 .main-name{
