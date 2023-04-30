@@ -35,7 +35,7 @@ h2{
 .nav1{
     display: inline-block;
     height: 10vh;
-    margin-top: 0px;
+    margin-top: 8px;
     
 }
 
@@ -79,7 +79,7 @@ nav ul li img{
 
 
 #P-logo{
-    width: 35px;
+    width: 38px;
     opacity: 130%;
 }
 
