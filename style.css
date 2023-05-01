@@ -131,6 +131,11 @@ nav ul li img{
     color: rgba(0, 255, 255, 0.74);
 }
 
+#personal_info_color{
+    border: 1px solid violet;
+    box-shadow: 5px 5px 10px violet;
+}
+
 .personal_info{
     border: 1px solid cyan;
     width: 80vw;
@@ -162,12 +167,15 @@ nav ul li img{
     
 }
 
-.container{
+.container {
     border: 1px solid rgb(231, 235, 38);
     margin-top: 18vh;
+    margin-left: auto;
+    width: 65vw;
     max-height: 50vh;
+    margin-right: auto;
     display: flex;
-    overflow-x: auto;   
+    overflow-x: auto;
     padding: 0 10px;
     border-radius: 20px;
     box-shadow: 5px 5px 15px rgb(241, 238, 62);
