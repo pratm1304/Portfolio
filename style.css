@@ -42,9 +42,10 @@ h2{
     z-index: 1;
     background-color:black ;
     height: 10vh;
-    border-bottom: 2px solid cyan;
+    border-bottom: 2px solid black;
     border-radius: 20px;
     width: 100vw;
+    box-shadow:0 5px 10px cyan;
 }
 
 .nav1{
@@ -166,6 +167,7 @@ nav ul li img{
     font-style: italic;
     
 }
+
 
 .container {
     border: 1px solid rgb(231, 235, 38);
