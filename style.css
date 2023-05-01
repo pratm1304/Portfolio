@@ -1,61 +1,60 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Source+Code+Pro&display=swap');
 
-
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: black;
     color: cyan;
-    font-family: Arial,sans-serif;
-    height: 300vh;
-    
-    
+    font-family: Arial, sans-serif;
+    height: 250vh;
+
+
 }
 
-h3{
+h3 {
     font-size: 2rem;
-    font-weight:300;
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 300;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: italic;
 }
 
-h2{
+h2 {
     font-size: 2rem;
-    font-weight:300;
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 300;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: italic;
-    
+
 }
 
-.landing_info{
+.landing_info {
     position: relative;
     top: 100px;
 }
 
-.fixed_nav{
+.fixed_nav {
     position: fixed;
     z-index: 1;
-    background-color:black ;
+    background-color: black;
     height: 10vh;
     border-bottom: 2px solid black;
     border-radius: 20px;
     width: 100vw;
-    box-shadow:0 5px 10px cyan;
+    box-shadow: 0 5px 10px cyan;
 }
 
-.nav1{
+.nav1 {
     z-index: 1;
     display: inline-block;
     height: 10vh;
     margin-top: 11px;
 }
 
-nav{
+nav {
     z-index: 1;
     display: inline-block;
     position: absolute;
@@ -66,35 +65,35 @@ nav{
 
 }
 
-nav ul{
+nav ul {
     list-style: none;
 
 }
 
-nav ul li{
+nav ul li {
     display: inline-block;
     padding: 8px;
 }
 
-nav ul li img{
+nav ul li img {
     width: 32px;
 }
 
-#insta{
+#insta {
     width: 30px;
 }
 
-#linkedin{
+#linkedin {
     width: 30px;
 }
 
-#wapp{
+#wapp {
     width: 30px;
 
 }
 
 
-#P-logo{
+#P-logo {
     width: 38px;
     opacity: 130%;
 }
@@ -108,36 +107,37 @@ nav ul li img{
     padding: 5px;
     border: 4px solid #ffffff;
     border-radius: 53%;
-    border-style:double;
+    border-style: double;
 }
 
-#main-logo:hover{
+#main-logo:hover {
     transform: scale(1.1);
-    transition-duration: 1s ;
-    
+    transition-duration: 1s;
+
 }
 
-.main-name{
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
-    font-style: italic;  
+.main-name {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: italic;
     font-size: 35px;
-    font-weight:300;
+    font-weight: 300;
     text-align: center;
     opacity: 500%;
 }
 
-#unique_font{
-    font-family: 'Caveat', cursive; 
+#unique_font {
+    font-family: 'Caveat', cursive;
     font-size: 50px;
     color: rgba(0, 255, 255, 0.74);
 }
 
-#personal_info_color{
+#personal_info_color {
     border: 1px solid violet;
     box-shadow: 5px 5px 10px violet;
 }
 
-.personal_info{
+
+.personal_info {
     border: 1px solid cyan;
     width: 80vw;
     margin-left: auto;
@@ -147,31 +147,32 @@ nav ul li img{
     height: 40vh;
     padding: 2px;
     background-color: rgba(255, 255, 255, 0.041);
-    margin-bottom: 50px ;
+    margin-bottom: 50px;
     padding-top: 25px;
     position: relative;
     top: 50px;
     box-shadow: 5px 5px 10px cyan;
     overflow: auto;
-    
-
 }
 
-.personal_info_para{
+.personal_info h3 {
+    font-family: 'Source Code Pro', monospace;
+    font-style: normal;
+}
+
+.personal_info_para {
     text-align: left;
     padding-left: 3vw;
     padding-right: 3vw;
     font-size: 1.2rem;
     line-height: 4vh;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-style: italic;
-    
-}
+    font-family: 'Source Code Pro', monospace;
+    font-style: normal;
 
+}
 
 .container {
     border: 1px solid violet;
-    box-shadow: 5px 5px 10px violet;
     margin-top: 18vh;
     margin-left: auto;
     width: 65vw;
@@ -181,44 +182,63 @@ nav ul li img{
     overflow-x: auto;
     padding: 0 10px;
     border-radius: 20px;
+    box-shadow: 5px 5px 15px violet;
 }
 
-.container::-webkit-scrollbar{
+.container::-webkit-scrollbar {
     width: 0;
 }
 
-.personal_info::-webkit-scrollbar{
+.personal_info::-webkit-scrollbar {
     width: 0;
 }
 
-.box{
+.box {
     margin: 20px 10px;
     min-width: 53vw;
-    height: 25vh; 
+    height: 25vh;
     border-radius: 20px;
     overflow: hidden;
 }
 
-#git_box{
+#git_box {
     padding-top: 8px;
 }
 
-#git_box img{
+#git_box img {
     filter: invert(100%);
     height: 95%;
-    
+
 }
 
-.box img{
+.box img {
     width: 100%;
     height: 100%;
 }
 
-.swipe{
+.swipe {
     text-align: center;
     font-size: 1.5rem;
     margin-top: 25px;
-    font-family:  'Caveat', cursive;
+    font-family: 'Caveat', cursive;
     color: yellow;
 
+}
+
+a[href^="mailto:"] {
+    text-decoration: none;
+    color: cyan;
+    font-style: normal;
+    font-size: 1.2rem;
+}
+
+.email {
+    margin-top: 80px;
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+    cursor: pointer;
+}
+
+.email a:hover {
+    color: gray;
 }
