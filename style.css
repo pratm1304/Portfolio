@@ -170,7 +170,8 @@ nav ul li img{
 
 
 .container {
-    border: 1px solid rgb(231, 235, 38);
+    border: 1px solid violet;
+    box-shadow: 5px 5px 10px violet;
     margin-top: 18vh;
     margin-left: auto;
     width: 65vw;
@@ -180,7 +181,6 @@ nav ul li img{
     overflow-x: auto;
     padding: 0 10px;
     border-radius: 20px;
-    box-shadow: 5px 5px 15px rgb(241, 238, 62);
 }
 
 .container::-webkit-scrollbar{
@@ -219,6 +219,6 @@ nav ul li img{
     font-size: 1.5rem;
     margin-top: 25px;
     font-family:  'Caveat', cursive;
-    color: rgb(255, 0, 242);
+    color: yellow;
 
 }
