@@ -152,7 +152,6 @@ nav ul li img {
     position: relative;
     top: 50px;
     box-shadow: 5px 5px 10px cyan;
-    overflow: auto;
 }
 
 .personal_info h3 {
